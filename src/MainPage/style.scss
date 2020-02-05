@@ -1,0 +1,44 @@
+/* default: for desktop and tablet */
+.container {
+    width: 100%;
+    // min-height: 100vh;
+    // background-color: linen;
+}
+
+.section-container {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #fbfbfb;
+
+    .gray {
+        background-color: #f7f7f7;
+    }
+}
+
+.content {
+    min-height: 100vh;
+    width: 960px;
+    margin: auto;
+}
+
+/* for tablet */
+@media (max-width: 1024px) {
+    .content {
+        width: calc(100% - 100px);
+    }
+
+    .section-container {
+        padding: 30px 0;
+    }
+}
+
+/* for mobile */
+@media (max-width: 425px) {
+    .content {
+        width: calc(100% - 30px);
+    }
+
+    .section-container {
+        padding: 20px 0;
+    }
+}

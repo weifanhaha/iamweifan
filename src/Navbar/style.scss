@@ -1,0 +1,145 @@
+/* default: for desktop and tablet */
+.navbar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+
+    /* background-color: black; */
+    background-color: #7d99c70f;
+}
+
+.navicon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 30px;
+    height: 30px;
+
+    // background-color: burlywood;
+
+    cursor: pointer;
+
+    span.hamburger {
+        display: block;
+        position: relative;
+        height: 2px;
+        width: 100%;
+        margin-top: 6px;
+        background: #2f2f2f;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.sidebar {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    min-height: 100vh;
+    padding: 50px 0;
+    overflow: scroll;
+
+    background-color: #2f2f2f;
+    transition: all 0.3s;
+
+    &.hidden {
+        width: 0;
+    }
+}
+
+.sidebar-cross {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+
+    transition: all 0.5s;
+
+    &.hidden {
+        display: none;
+    }
+
+    &::before {
+        transform: rotate(45deg);
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background: #bdc3c7;
+    }
+
+    &::after {
+        transform: rotate(-45deg);
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        top: 0;
+        left: 50%;
+        background: #bdc3c7;
+    }
+}
+
+.nav-item {
+    display: block;
+    padding: 15px 25px;
+    opacity: 0.8;
+
+    color: white;
+    cursor: pointer;
+    &:hover {
+        opacity: 1;
+        background-color: #7b7373;
+    }
+}
+
+/* for mobile */
+@media (max-width: 425px) {
+    .navbar {
+        height: 30px;
+    }
+
+    .navicon {
+        right: 10px;
+        width: 20px;
+        height: 20px;
+
+        span.hamburger {
+            display: block;
+            position: relative;
+            height: 2px;
+            width: 100%;
+            margin-top: 4px;
+            background: #2f2f2f;
+            border-radius: 9px;
+            opacity: 1;
+            left: 0;
+        }
+    }
+
+    .sidebar {
+        top: 0;
+        right: 0;
+        width: 200px;
+        min-height: 100vh;
+    }
+
+    .sidebar-cross {
+        top: 15px;
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+}
