@@ -15,6 +15,6 @@ serviceWorker.unregister()
 /*
 Todos
 1. Add scroll in Home Section
-
+2. Add language switcher
 
 */

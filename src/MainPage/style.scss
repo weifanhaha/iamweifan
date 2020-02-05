@@ -22,7 +22,7 @@
 }
 
 /* for tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
     .content {
         width: calc(100% - 100px);
     }
@@ -33,7 +33,7 @@
 }
 
 /* for mobile */
-@media (max-width: 425px) {
+@media (max-width: 599px) {
     .content {
         width: calc(100% - 30px);
     }

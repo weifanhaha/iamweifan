@@ -3,6 +3,8 @@
 .intro-wrapper {
     display: flex;
     flex-direction: row;
+
+    margin-top: 50px;
 }
 
 .intro-img-container {
@@ -22,7 +24,11 @@
 }
 
 /* for tablet */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+    .intro-wrapper {
+        margin-top: 30px;
+    }
+
     .intro-img-container {
         width: 250px;
         height: 350px;
@@ -36,9 +42,10 @@
 }
 
 /* for mobile */
-@media (max-width: 425px) {
+@media (max-width: 599px) {
     .intro-wrapper {
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .intro-img-container {
