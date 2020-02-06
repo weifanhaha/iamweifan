@@ -1,0 +1,35 @@
+/* default: for desktop and tablet */
+.section-title {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 28px;
+    color: #2f2f2f;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        height: 3px;
+        // background-color: #a5a5a5;
+        width: 28px;
+        left: 0;
+    }
+}
+
+.experience-blocks-container {
+    padding: 20px 0 20px 50px;
+    // padding-left: 50px;
+    border-left: 3px solid #a5a5a5;
+}
+
+/* for mobile */
+@media (max-width: 599px) {
+    .section-title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .experience-blocks-container {
+        padding: 10px 0 10px 20px;
+    }
+}

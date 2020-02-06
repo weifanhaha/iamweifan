@@ -1,0 +1,36 @@
+/* default: for desktop and tablet */
+.experience-block {
+    padding: 20px 0;
+    line-height: 1.5;
+
+    .title-textbox {
+        margin: 10px 0;
+
+        .title {
+            font-size: 18px;
+        }
+
+        .subtitle {
+            margin-left: 1em;
+            color: #a5a5a5;
+        }
+    }
+}
+
+/* for mobile */
+@media (max-width: 599px) {
+    .experience-block {
+        .title-textbox {
+            margin: 10px 0;
+
+            .title {
+                display: block;
+            }
+
+            .subtitle {
+                display: block;
+                margin: 0;
+            }
+        }
+    }
+}
