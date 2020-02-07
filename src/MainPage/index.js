@@ -3,6 +3,7 @@ import Navbar from "../Navbar"
 import HomeSection from "../HomeSection"
 import IntroSection from "../IntroSection"
 import EducationSection from "../EducationSection"
+import ExperienceSection from "../ExperienceSection"
 import "./style.scss"
 import { ENG, CH } from "../constants"
 
@@ -30,7 +31,9 @@ class MainPage extends Component {
                     <section id="education">
                         <EducationSection language={this.state.language} />
                     </section>
-                    <section id="experience"></section>
+                    <section id="experience">
+                        <ExperienceSection language={this.state.language} />
+                    </section>
                     <section id="skill"></section>
                     <section id="project"></section>
                     <section id="contact" />
