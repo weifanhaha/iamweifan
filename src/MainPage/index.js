@@ -4,6 +4,7 @@ import HomeSection from "../HomeSection"
 import IntroSection from "../IntroSection"
 import EducationSection from "../EducationSection"
 import ExperienceSection from "../ExperienceSection"
+import ContactSection from "../ContactSection"
 import "./style.scss"
 import { ENG, CH } from "../constants"
 
@@ -36,7 +37,9 @@ class MainPage extends Component {
                     </section>
                     <section id="skill"></section>
                     <section id="project"></section>
-                    <section id="contact" />
+                    <section id="contact">
+                        <ContactSection />
+                    </section>
                 </div>
             </div>
         )

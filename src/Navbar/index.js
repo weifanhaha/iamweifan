@@ -17,7 +17,7 @@ class Navbar extends Component {
 
     toggleSideBar = () => {
         this.setState(
-            (prevState, props) => ({
+            prevState => ({
                 openSideBar: !prevState.openSideBar
             }),
             console.log(this.state.openSideBar)
