@@ -1,6 +1,13 @@
 import React, { Component } from "react"
 import dictionary from "./assets/dictionary"
 import "./style.scss"
+import {
+    HOME_SECTION,
+    INTRO_SECTION,
+    EDUCATION_SECTION,
+    EXPERIENCE_SECTION,
+    CONTACT_SECTION
+} from "../constants"
 
 class Navbar extends Component {
     constructor(props) {
@@ -41,20 +48,46 @@ class Navbar extends Component {
                         className={`sidebar-cross ${this.sidebarHidden}`}
                         onClick={this.toggleSideBar}
                     />
-                    <div className="nav-item">{this.getText("HOME")}</div>
-                    <div className="nav-item">{this.getText("EDUCATION")}</div>
-                    <div className="nav-item">{this.getText("EXPERIENCE")}</div>
-                    <div className="nav-item">{this.getText("CONTACT")}</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
-                    <div className="nav-item">Contact</div>
+                    <div
+                        className="nav-item"
+                        onClick={() => this.props.scrollToRef(HOME_SECTION)}
+                    >
+                        {this.getText("HOME")}
+                    </div>
+                    <div
+                        className="nav-item"
+                        onClick={() => this.props.scrollToRef(INTRO_SECTION)}
+                    >
+                        {this.getText("INTRO")}
+                    </div>
+                    <div
+                        className="nav-item"
+                        onClick={() =>
+                            this.props.scrollToRef(EDUCATION_SECTION)
+                        }
+                    >
+                        {this.getText("EDUCATION")}
+                    </div>
+                    <div
+                        className="nav-item"
+                        onClick={() =>
+                            this.props.scrollToRef(EXPERIENCE_SECTION)
+                        }
+                    >
+                        {this.getText("EXPERIENCE")}
+                    </div>
+                    <div
+                        className="nav-item"
+                        onClick={() => this.props.scrollToRef(CONTACT_SECTION)}
+                    >
+                        {this.getText("CONTACT")}
+                    </div>
+                    {/* <div
+                        className="nav-item"
+                        onClick={this.props.switchLanguage}
+                    >
+                        中 / Eng
+                    </div> */}
                 </div>
             </div>
         )

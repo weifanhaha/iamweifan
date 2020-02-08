@@ -1,2 +1,8 @@
 export const ENG = "ENG"
 export const CH = "CH"
+
+export const HOME_SECTION = "HOME_SECTION"
+export const INTRO_SECTION = "INTRO_SECTION"
+export const EDUCATION_SECTION = "EDUCATION_SECTION"
+export const EXPERIENCE_SECTION = "EXPERIENCE_SECTION"
+export const CONTACT_SECTION = "CONTACT_SECTION"
