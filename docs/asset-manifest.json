@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/iamweifan/static/css/main.eb12c053.chunk.css",
+    "main.js": "/iamweifan/static/js/main.fae43fdf.chunk.js",
+    "main.js.map": "/iamweifan/static/js/main.fae43fdf.chunk.js.map",
+    "runtime-main.js": "/iamweifan/static/js/runtime-main.997450cb.js",
+    "runtime-main.js.map": "/iamweifan/static/js/runtime-main.997450cb.js.map",
+    "static/js/2.f435d3b0.chunk.js": "/iamweifan/static/js/2.f435d3b0.chunk.js",
+    "static/js/2.f435d3b0.chunk.js.map": "/iamweifan/static/js/2.f435d3b0.chunk.js.map",
+    "index.html": "/iamweifan/index.html",
+    "precache-manifest.dc1083fdc4230ffcf1628c2a06b19d56.js": "/iamweifan/precache-manifest.dc1083fdc4230ffcf1628c2a06b19d56.js",
+    "service-worker.js": "/iamweifan/service-worker.js",
+    "static/css/main.eb12c053.chunk.css.map": "/iamweifan/static/css/main.eb12c053.chunk.css.map",
+    "static/js/2.f435d3b0.chunk.js.LICENSE.txt": "/iamweifan/static/js/2.f435d3b0.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/iamweifan/static/media/me.cbe0542d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.997450cb.js",
+    "static/js/2.f435d3b0.chunk.js",
+    "static/css/main.eb12c053.chunk.css",
+    "static/js/main.fae43fdf.chunk.js"
+  ]
+}
