@@ -6,7 +6,7 @@ import EducationSection from "../EducationSection"
 import ExperienceSection from "../ExperienceSection"
 import ContactSection from "../ContactSection"
 import "./style.scss"
-import { ENG, CH } from "../constants"
+import { CH } from "../constants"
 import {
     HOME_SECTION,
     INTRO_SECTION,
@@ -28,13 +28,11 @@ class MainPage extends Component {
         this.eduRef = React.createRef()
         this.expRef = React.createRef()
         this.contactRef = React.createRef()
+        this.skillRef = React.createRef()
     }
 
-    switchLanguage = () => {
-        console.log("switch")
-        this.setState(prevState => ({
-            language: prevState.language === CH ? ENG : CH
-        }))
+    switchLanguage = language => {
+        this.setState({ language: language })
     }
 
     sectionRef(section) {
@@ -57,7 +55,6 @@ class MainPage extends Component {
     scrollToRef = section => {
         const ref = this.sectionRef(section)
         ref.current.scrollIntoView({ behavior: "smooth" })
-        // this.homeRef.current.scrollIntoView({ behavior: "smooth" })
     }
 
     render() {

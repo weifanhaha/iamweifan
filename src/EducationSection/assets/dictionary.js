@@ -8,17 +8,17 @@ dictionary[ENG] = {
     EDUCATION_TITLE1: "National Taiwan University, Master Degree",
     EDUCATION_SUBTITLE1: "Department of Computer Science and Engineering",
     DESC1:
-        "加入許永真教授智慧代理實驗室，主攻人工智慧與機器學習。碩一研究題目為假新聞的判斷與偵測，以深度學習的模型判斷新聞文章真偽。也參與中研院「 以 AI 打造網路社群媒體安心使用環境」計畫。",
+        "Conducting researches in artificial intelligence, machine learning and nature language processing. Trying to distinguish fake news and disinformation with deep learning models.",
     PERIOD2: "03/2018 - 08/2018",
     EDUCATION_TITLE2: "Ruhr University Bochum (Germany)",
     EDUCATION_SUBTITLE2: "Exchange Student",
     DESC2:
-        "交換期間努力和不同文化背景的人交流，了解不同國家的思維與價值觀，結交了來自義大利、韓國、印度與德國等好朋友。透過修課、工作坊增進英文與德文語言能力，曾試著以全英文求職，並拿到面試機會。",
+        "Got to understand the thoughts and perspectives from people around the world and made friends from different countries such as German, Italy, India, Korea, etc. Improved English and German by taking courses and attending workshop.",
     PERIOD3: "06/2013 - 03/2018",
     EDUCATION_TITLE3: "National Taiwan University, Bachelor Degree",
-    EDUCATION_SUBTITLE3: "Materials Science and Engineering",
+    EDUCATION_SUBTITLE3: "Department of Materials Science and Engineering",
     DESC3:
-        "在校期間發覺對資訊工程的興趣，修習過資料結構、演算法、計算機網路等十門以上資工領域基礎課程，平均等第為 A- (GPA: 3.7 /4.3) ，也在機器學習、使用者經驗設計、網頁互動程式設計等應用課程拿下 A 等第(4.0 / 4.3) 以上成績"
+        "Developed the interest in Computer Science. Got grade of A (4.0 / 4.3 ) in Interactive Web Programming course. Developed a web prototype of a platform in User Experience Course and got grade of A+ ( 4.3 / 4.3 )."
 }
 
 dictionary[CH] = {

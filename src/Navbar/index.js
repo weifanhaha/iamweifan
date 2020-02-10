@@ -8,6 +8,7 @@ import {
     EXPERIENCE_SECTION,
     CONTACT_SECTION
 } from "../constants"
+import { ENG, CH } from "../constants"
 
 class Navbar extends Component {
     constructor(props) {
@@ -35,9 +36,29 @@ class Navbar extends Component {
         return this.state.openSideBar ? "" : "hidden"
     }
 
+    optionClass = lang => {
+        return this.props.language === lang ? "active option" : "option"
+    }
+
     render() {
         return (
             <div className="navbar">
+                <div className="language-switch">
+                    <span
+                        className={this.optionClass(CH)}
+                        onClick={() => this.props.switchLanguage(CH)}
+                    >
+                        繁體中文{" "}
+                    </span>
+                    |
+                    <span
+                        className={this.optionClass(ENG)}
+                        onClick={() => this.props.switchLanguage(ENG)}
+                    >
+                        {" "}
+                        English
+                    </span>
+                </div>
                 <div className="navicon" onClick={this.toggleSideBar}>
                     <span className="hamburger" />
                     <span className="hamburger" />
@@ -82,12 +103,6 @@ class Navbar extends Component {
                     >
                         {this.getText("CONTACT")}
                     </div>
-                    {/* <div
-                        className="nav-item"
-                        onClick={this.props.switchLanguage}
-                    >
-                        中 / Eng
-                    </div> */}
                 </div>
             </div>
         )

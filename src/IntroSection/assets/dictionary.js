@@ -5,9 +5,10 @@ let dictionary = {}
 dictionary[ENG] = {
     NAME: "Wei Fan, Chang ",
     INTRO1:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit ",
+        "graduated from department of Materials Science and Engineering and finally found her passion in Computer Science. When working in a social enterprise as an intern, she got to notice the responsibility of a human being and aim to contribute to the community.",
+
     INTRO2:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit "
+        "She had been a fullstack engineer for one year before going to graduate school. Now, she is a M.S. student in department of Computer Science and Information Engineering at National Taiwan University. Her research interests include artificial intelligence, machine learning and nature language processing."
 }
 
 dictionary[CH] = {

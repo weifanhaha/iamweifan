@@ -15,6 +15,7 @@ serviceWorker.unregister()
 /*
 Todos
 1. Add scroll in Home Section
-2. Add language switcher
-
+V 2. Add language switcher
+3. css of education / experience section
+4. project, skill section
 */
