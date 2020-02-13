@@ -58,7 +58,7 @@ class ContactSection extends Component {
                     href="mailto:wf.trista.chang@gmail.com"
                     className={this.emailClass}
                 >
-                    wf.trista.chang@gmail.com
+                    wf.chang.trista@gmail.com
                 </a>
             </div>
         )
