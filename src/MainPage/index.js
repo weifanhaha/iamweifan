@@ -5,14 +5,16 @@ import IntroSection from "../IntroSection"
 import EducationSection from "../EducationSection"
 import ExperienceSection from "../ExperienceSection"
 import ContactSection from "../ContactSection"
+import SkillSection from "../SkillSection"
 import "./style.scss"
-import { CH } from "../constants"
+import { ENG } from "../constants"
 import {
     HOME_SECTION,
     INTRO_SECTION,
     EDUCATION_SECTION,
     EXPERIENCE_SECTION,
-    CONTACT_SECTION
+    CONTACT_SECTION,
+    SKILL_SECTION
 } from "../constants"
 
 class MainPage extends Component {
@@ -20,7 +22,7 @@ class MainPage extends Component {
         super(props)
 
         this.state = {
-            language: CH
+            language: ENG
         }
 
         this.homeRef = React.createRef()
@@ -47,6 +49,9 @@ class MainPage extends Component {
                 return this.expRef
             case CONTACT_SECTION:
                 return this.contactRef
+            case SKILL_SECTION:
+                return this.skillRef
+
             default:
                 return this.homeRef
         }
@@ -78,7 +83,9 @@ class MainPage extends Component {
                     <section id="experience" ref={this.expRef}>
                         <ExperienceSection language={this.state.language} />
                     </section>
-                    <section id="skill"></section>
+                    <section id="skill" ref={this.skillRef}>
+                        <SkillSection language={this.state.language} />
+                    </section>
                     <section id="project"></section>
                     <section id="contact" ref={this.contactRef}>
                         <ContactSection />

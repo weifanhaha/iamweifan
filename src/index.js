@@ -18,4 +18,5 @@ Todos
 V 2. Add language switcher
 3. css of education / experience section
 4. project, skill section
+5. smaller image size for mobile
 */

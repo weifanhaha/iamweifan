@@ -6,7 +6,8 @@ import {
     INTRO_SECTION,
     EDUCATION_SECTION,
     EXPERIENCE_SECTION,
-    CONTACT_SECTION
+    CONTACT_SECTION,
+    SKILL_SECTION
 } from "../constants"
 import { ENG, CH } from "../constants"
 
@@ -96,6 +97,12 @@ class Navbar extends Component {
                         }
                     >
                         {this.getText("EXPERIENCE")}
+                    </div>
+                    <div
+                        className="nav-item"
+                        onClick={() => this.props.scrollToRef(SKILL_SECTION)}
+                    >
+                        {this.getText("SKILL")}
                     </div>
                     <div
                         className="nav-item"

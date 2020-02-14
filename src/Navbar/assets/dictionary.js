@@ -7,6 +7,7 @@ dictionary[ENG] = {
     INTRO: "Introduction",
     EDUCATION: "Education",
     EXPERIENCE: "Experience",
+    SKILL: "Skill",
     CONTACT: "Contact"
 }
 
@@ -15,6 +16,7 @@ dictionary[CH] = {
     INTRO: "個人簡介",
     EDUCATION: "學習歷程",
     EXPERIENCE: "相關經歷",
+    SKILL: "專業技能",
     CONTACT: "聯絡方式"
 }
 
