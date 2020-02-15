@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "72c7df54596c2035851e54e8ee9b46a6",
+    "revision": "30f5055d8323cfffc5dd624ea2e5f328",
     "url": "/iamweifan/index.html"
   },
   {
-    "revision": "2ae94c7fc8f2a526ce51",
-    "url": "/iamweifan/static/css/main.77cb107b.chunk.css"
+    "revision": "97d12ddb83bde8b3ccf0",
+    "url": "/iamweifan/static/css/main.ddd0fe80.chunk.css"
   },
   {
     "revision": "443e140b3bb315de114a",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/iamweifan/static/js/2.f435d3b0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2ae94c7fc8f2a526ce51",
-    "url": "/iamweifan/static/js/main.0305557d.chunk.js"
+    "revision": "97d12ddb83bde8b3ccf0",
+    "url": "/iamweifan/static/js/main.b33654a0.chunk.js"
   },
   {
     "revision": "dac9318dba3ffcdb50b2",
     "url": "/iamweifan/static/js/runtime-main.997450cb.js"
   },
   {
-    "revision": "cd751b843349d6e04738bc14704ea668",
-    "url": "/iamweifan/static/media/home_img.cd751b84.JPG"
+    "revision": "85aa3a5bf8bf50820341962df7051777",
+    "url": "/iamweifan/static/media/home_img.85aa3a5b.JPG"
   },
   {
     "revision": "cbe0542dd15d6e82f1b638d8e27f080d",
