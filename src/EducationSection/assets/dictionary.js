@@ -4,11 +4,11 @@ let dictionary = {}
 
 dictionary[ENG] = {
     TITLE: "Education",
-    PERIOD1: "09/2019 -",
+    PERIOD1: "09/2019 - 07/2021",
     EDUCATION_TITLE1: "National Taiwan University, Master Degree",
     EDUCATION_SUBTITLE1: "Department of Computer Science and Engineering",
     DESC1:
-        "Conducting researches in artificial intelligence, machine learning and nature language processing. Trying to distinguish fake news and disinformation with deep learning models.",
+        "Specialized in artificial intelligence, machine learning, deep learning, and natural language processing in iAgent Lab.",
     PERIOD2: "03/2018 - 08/2018",
     EDUCATION_TITLE2: "Ruhr University Bochum (Germany)",
     EDUCATION_SUBTITLE2: "Exchange Student",

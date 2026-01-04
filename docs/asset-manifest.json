@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/iamweifan/static/css/main.ddd0fe80.chunk.css",
-    "main.js": "/iamweifan/static/js/main.b33654a0.chunk.js",
-    "main.js.map": "/iamweifan/static/js/main.b33654a0.chunk.js.map",
+    "main.js": "/iamweifan/static/js/main.69489845.chunk.js",
+    "main.js.map": "/iamweifan/static/js/main.69489845.chunk.js.map",
     "runtime-main.js": "/iamweifan/static/js/runtime-main.997450cb.js",
     "runtime-main.js.map": "/iamweifan/static/js/runtime-main.997450cb.js.map",
-    "static/js/2.f435d3b0.chunk.js": "/iamweifan/static/js/2.f435d3b0.chunk.js",
-    "static/js/2.f435d3b0.chunk.js.map": "/iamweifan/static/js/2.f435d3b0.chunk.js.map",
+    "static/js/2.b7ab4a0d.chunk.js": "/iamweifan/static/js/2.b7ab4a0d.chunk.js",
+    "static/js/2.b7ab4a0d.chunk.js.map": "/iamweifan/static/js/2.b7ab4a0d.chunk.js.map",
     "index.html": "/iamweifan/index.html",
-    "precache-manifest.a9632a763c24515ead1633e64784aaf5.js": "/iamweifan/precache-manifest.a9632a763c24515ead1633e64784aaf5.js",
+    "precache-manifest.8555305c8c85c431d399cbd251e5ea54.js": "/iamweifan/precache-manifest.8555305c8c85c431d399cbd251e5ea54.js",
     "service-worker.js": "/iamweifan/service-worker.js",
     "static/css/main.ddd0fe80.chunk.css.map": "/iamweifan/static/css/main.ddd0fe80.chunk.css.map",
-    "static/js/2.f435d3b0.chunk.js.LICENSE.txt": "/iamweifan/static/js/2.f435d3b0.chunk.js.LICENSE.txt",
+    "static/js/2.b7ab4a0d.chunk.js.LICENSE.txt": "/iamweifan/static/js/2.b7ab4a0d.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/iamweifan/static/media/me.cbe0542d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.997450cb.js",
-    "static/js/2.f435d3b0.chunk.js",
+    "static/js/2.b7ab4a0d.chunk.js",
     "static/css/main.ddd0fe80.chunk.css",
-    "static/js/main.b33654a0.chunk.js"
+    "static/js/main.69489845.chunk.js"
   ]
 }

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30f5055d8323cfffc5dd624ea2e5f328",
+    "revision": "5ebfbc42c36358d8310d37c548667b90",
     "url": "/iamweifan/index.html"
   },
   {
-    "revision": "97d12ddb83bde8b3ccf0",
+    "revision": "bf56789bcad49cff47fe",
     "url": "/iamweifan/static/css/main.ddd0fe80.chunk.css"
   },
   {
-    "revision": "443e140b3bb315de114a",
-    "url": "/iamweifan/static/js/2.f435d3b0.chunk.js"
+    "revision": "7194025391c5df60aa30",
+    "url": "/iamweifan/static/js/2.b7ab4a0d.chunk.js"
   },
   {
-    "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/iamweifan/static/js/2.f435d3b0.chunk.js.LICENSE.txt"
+    "revision": "38d5cc1cb1001b9cc38b06e2da080c18",
+    "url": "/iamweifan/static/js/2.b7ab4a0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "97d12ddb83bde8b3ccf0",
-    "url": "/iamweifan/static/js/main.b33654a0.chunk.js"
+    "revision": "bf56789bcad49cff47fe",
+    "url": "/iamweifan/static/js/main.69489845.chunk.js"
   },
   {
     "revision": "dac9318dba3ffcdb50b2",

@@ -1,26 +1,38 @@
 const skillList = [
     {
-        title: "ML / DL Related",
-        contents: ["Pytorch", "Keras", "Tensorflow", "NLP", "CV"]
-    },
-    {
-        title: "Backend",
-        contents: ["Ruby on Rails", "MySql", "GCP / AWS", "Docker"]
-    },
-    {
-        title: "Frontend",
-        contents: ["HTML", "CSS / Sass", "JavaScript", "React", "Redux"]
-    },
-    {
-        title: "More",
+        title: "Deep Learning / NLP",
         contents: [
-            "Python",
-            "C / C++",
-            "Matlab",
-            "Git",
-            "CI / CD",
-            "Design Pattern"
+            "Transformer",
+            "Agent",
+            "LLM",
+            "LangChain",
+            "RAG",
+            "PyTorch"
         ]
+    },
+    {
+        title: "Data Processing",
+        contents: [
+            "Apache Spark",
+            "PySpark",
+            "Pandas",
+            "NumPy",
+            "Synthetic Data Generation"
+        ]
+    },
+    {
+        title: "Fullstack / DevOps",
+        contents: [
+            "React",
+            "Ruby on Rails",
+            "Docker",
+            "Kubernetes",
+            "GCP / AWS"
+        ]
+    },
+    {
+        title: "Languages",
+        contents: ["Python", "Scala", "C++", "C#", "Kotlin", "JavaScript"]
     }
 ]
 

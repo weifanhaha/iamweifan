@@ -25,6 +25,30 @@ function ExperienceSection(props) {
                         period={getText("PERIOD2")}
                         desc={getText("DESC2")}
                     />
+                    <ExperienceBlock
+                        title={getText("EDUCATION_TITLE3")}
+                        subtitle={getText("EDUCATION_SUBTITLE3")}
+                        period={getText("PERIOD3")}
+                        desc={getText("DESC3")}
+                    />
+                    <ExperienceBlock
+                        title={getText("EDUCATION_TITLE4")}
+                        subtitle={getText("EDUCATION_SUBTITLE4")}
+                        period={getText("PERIOD4")}
+                        desc={getText("DESC4")}
+                    />
+                    <ExperienceBlock
+                        title={getText("EDUCATION_TITLE5")}
+                        subtitle={getText("EDUCATION_SUBTITLE5")}
+                        period={getText("PERIOD5")}
+                        desc={getText("DESC5")}
+                    />
+                    <ExperienceBlock
+                        title={getText("EDUCATION_TITLE6")}
+                        subtitle={getText("EDUCATION_SUBTITLE6")}
+                        period={getText("PERIOD6")}
+                        desc={getText("DESC6")}
+                    />
                 </div>
             </div>
         </div>
